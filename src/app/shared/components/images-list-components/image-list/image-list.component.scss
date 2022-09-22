@@ -1,0 +1,13 @@
+:host {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image {
+  padding: 4% 1%;
+  width: 31%;
+  max-width: 31%;
+}
+.lazy-load {
+  width: 100%;
+  display: flex;
+}

@@ -1,0 +1,11 @@
+<app-lazy-load-content
+  class="lazy-load"
+  [isLoading]="isLoading"
+  [total]="total"
+  [loadedTotal]="images.length"
+  (loadMore)="toggleLoadMore($event)"
+>
+<app-image class="image" [image]="image" *ngFor="let image of images">
+</app-image>
+
+</app-lazy-load-content>

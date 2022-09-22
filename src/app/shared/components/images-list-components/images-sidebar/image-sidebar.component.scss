@@ -1,0 +1,9 @@
+@import "src/theme/variables";
+:host {
+  padding: 12px;
+}
+.title-tag-box {
+  text-align: center;
+  color: $white;
+  font-size: 20px;
+}

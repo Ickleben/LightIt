@@ -1,0 +1,19 @@
+@import "variables";
+
+body,
+html {
+  height: 100vh;
+  min-height: 100%;
+}
+
+body,
+* {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}

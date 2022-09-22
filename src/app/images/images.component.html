@@ -1,0 +1,10 @@
+<app-image-list
+  (loadMore)="loadMore($event)"
+  [setTotal]="total"
+  [loading]="isLoading"
+  [arrOfImages]="images"
+  class="main-content">
+</app-image-list>
+
+<app-image-sidebar (changeFilter)="toggleFilter($event)" class="sidebar">
+</app-image-sidebar>

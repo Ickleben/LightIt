@@ -1,0 +1,17 @@
+@import 'src/theme/variables';
+
+:host {
+  display: flex;
+  height: 100%;
+}
+.main-content {
+  width: 80%;
+  padding: 24px;
+}
+.sidebar {
+  width: 19%;
+  max-width: 19%;
+  margin-left: 1%;
+  background-color: $dark;
+  height: 100%;
+}

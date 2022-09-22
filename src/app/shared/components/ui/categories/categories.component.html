@@ -1,0 +1,7 @@
+<div
+  *ngFor="let category of categories"
+  class="tag"
+  [class.active]="indexOfSelected(category) >= 0"
+  (click)="toggleCategory(category)">
+  {{category.name}}
+</div>
